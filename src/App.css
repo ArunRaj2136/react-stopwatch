@@ -1,3 +1,29 @@
-.App {
+* {
   text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+.App {
+  color: brown;
+  font-size: 50px;
+  margin: 5px auto;
+}
+
+.input {
+  width: 300px;
+  padding: 8px;
+  margin-top: 20px;
+  border-radius: 5px;
+}
+
+.btn {
+  width: 100px;
+  padding: 8px;
+  margin: 50px 5px 3px 1px;
+  border-radius: 10px;
+  color: brown;
+  background-color: aquamarine;
+  border: 2px solid aquamarine;
+  font-size: 15px;
 }
