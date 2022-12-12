@@ -10,7 +10,9 @@ const Input = () => {
 
   return (
     <div>
-      <label htmlFor="time">Enter-Time:</label>
+      <label htmlFor="time" className="bold">
+        Enter-Time:
+      </label>
       <input
         type="number"
         id="time"

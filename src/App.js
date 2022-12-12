@@ -7,6 +7,7 @@ function App() {
   return (
     <>
       <h1 className="App">Stop Watch</h1>
+      <hr></hr>
       <Input />
       <Button name="Start" type="submit" />
       <Button name="Pause" type="submit" />

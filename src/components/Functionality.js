@@ -3,12 +3,16 @@ import "./../App.css";
 
 const Functionality = () => {
   return (
-    <div>
-      <label>Min</label>
-      <input className="input"></input>
-      <label>Sec</label>
-      <input className="input"></input>
-    </div>
+    <>
+      <div>
+        <label className="bold">Min: </label>
+        <input className="input"></input>
+      </div>
+      <div>
+        <label className="bold">Sec: </label>
+        <input className="input"></input>
+      </div>
+    </>
   );
 };
 

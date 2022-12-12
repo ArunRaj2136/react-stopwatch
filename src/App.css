@@ -7,13 +7,18 @@
 .App {
   color: brown;
   font-size: 50px;
-  margin: 5px auto;
+  margin: 50px auto 15px auto;
+}
+
+.bold {
+  font-size: 30px;
+  color: rgb(10, 169, 98);
 }
 
 .input {
-  width: 300px;
-  padding: 8px;
-  margin-top: 20px;
+  width: 200px;
+  padding: 15px;
+  margin-top: 30px;
   border-radius: 5px;
 }
 
@@ -22,8 +27,8 @@
   padding: 8px;
   margin: 50px 5px 3px 1px;
   border-radius: 10px;
-  color: brown;
-  background-color: aquamarine;
-  border: 2px solid aquamarine;
+  color: rgb(254, 254, 254);
+  background-color: rgb(78, 0, 202);
+  border: 2px solid rgb(175, 164, 174);
   font-size: 15px;
 }
